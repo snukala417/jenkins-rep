@@ -9,6 +9,6 @@ job('NodeJS example') {
         scm('H/5 * * * *')
     }
     steps {
-        shell("python Testmath.py")
+        shell("python jenkins/Testmath.py")
     }
 }
